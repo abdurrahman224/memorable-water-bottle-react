@@ -1,0 +1,10 @@
+.bottles-container{
+
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+  box-shadow: 1, 4px, 180px rgba(0, 140, 0, 1);
+
+
+}

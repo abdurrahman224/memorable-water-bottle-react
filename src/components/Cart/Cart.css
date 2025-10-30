@@ -1,0 +1,19 @@
+.Carts-contain {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+  box-shadow: 1, 4px, 180px rgba(0, 140, 0, 1);
+}
+.Carts-contain img {
+  width: 250px;
+  box-shadow: 0, 4px, 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  /* border-radius: 15px; */
+}
+
+
+.Carts-contain img:hover{
+
+
+    transform: scale(1.2);
+}

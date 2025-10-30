@@ -1,0 +1,16 @@
+.bottle-contaner {
+  border: 2px solid plum;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 14px;
+}
+.bottle-contaner img {
+  width: 250px;
+  box-shadow: 0, 4px, 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+
+.bottle-contaner img:hover {
+  transform: scale(1.1);
+}
